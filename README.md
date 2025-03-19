@@ -16,4 +16,28 @@ The chatbot is powered by the Gemini 3.5 model and interacts through a user-frie
 - When users open the app, they can use the chat feature to ask questions or receive help with unit conversions.
 - The chatbot responds intelligently based on the queries and provides the appropriate assistance.
 
+## Installation (Including Chatbot Integration)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/unit-converter.git
+
+cd unit-converter
+
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+export GEMINI_API_KEY='your-api-key'
+streamlit run app.py
+
+## Example Interactions with Chatbot:
+- User: "How do I convert 5 kilometers to miles?"
+- Chatbot: "5 kilometers is equal to 3.1 miles."
+
+- User: "What's the weather like today?"
+- Chatbot: "I'm not sure about the weather, but I can help you with unit conversions!"
+
+- User: "Can you help me with temperature conversions?"
+- Chatbot: "Sure! Just tell me the temperature and the units you'd like to convert."
+
 
